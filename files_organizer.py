@@ -6,9 +6,8 @@ current_directory = os.path.dirname(os.path.realpath(__file__))
 
 for filename in os.listdir(current_directory):
 
-    print("Start Orgnizing Files in Your Download Folder!")
 
-    if filename.endswith(".png","jpg","jpeg","gif"):
+    if filename.endswith((".png","jpg","jpeg","gif")):
 
         if not os.path.exists("Images"):
 
@@ -19,7 +18,7 @@ for filename in os.listdir(current_directory):
         os.remove(filename)
 
     
-    if filename.endswith(".doc","docx","xlsx","pdf","pptx"):
+    if filename.endswith((".doc","docx","xlsx","pdf","pptx")):
 
         if not os.path.exists("Docs"):
 
@@ -30,7 +29,7 @@ for filename in os.listdir(current_directory):
         os.remove(filename)
 
     
-    if filename.endswith(".zip","rar"):
+    if filename.endswith((".zip","rar")):
 
         if not os.path.exists("Archive"):
 
@@ -41,7 +40,7 @@ for filename in os.listdir(current_directory):
         os.remove(filename)
 
 
-    if filename.endswith(".mp4","mkv","mov","avi"):
+    if filename.endswith((".mp4","mkv","mov","avi")):
 
         if not os.path.exists("Videos"):
 
@@ -52,7 +51,7 @@ for filename in os.listdir(current_directory):
         os.remove(filename)
 
 
-    if filename.endswith(".mp3","wav"):
+    if filename.endswith((".mp3","wav")):
 
         if not os.path.exists("Sounds"):
 
@@ -63,7 +62,7 @@ for filename in os.listdir(current_directory):
         os.remove(filename)
 
     
-    if filename.endswith(".iso","img"):
+    if filename.endswith((".iso","img")):
 
         if not os.path.exists("ISO"):
 
@@ -74,9 +73,18 @@ for filename in os.listdir(current_directory):
         os.remove(filename)
 
 
+
+    if filename.endswith((".exe")):
+
+        if not os.path.exists("exe"):
+
+            os.mkdir("ISO")
+        
+        shutil.copy(filename, "exe")
+
+        os.remove(filename)
+
 print("Orgnizing files have been Done!")
-
-
 
 
 
