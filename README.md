@@ -1,4 +1,4 @@
-# Python Automation - Files Organizer - Organize Your Files with Python By Sameh Dorgham
+# Python Automation By Sameh Dorgham
 
 1- Python Automation - Files Organizer - Organize Your Files with Python By Sameh Dorgham
 ...
