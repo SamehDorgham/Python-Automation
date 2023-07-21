@@ -1,10 +1,14 @@
 # Python Automation - Files Organizer - Organize Your Files with Python By Sameh Dorgham
 
 1- Python Automation - Files Organizer - Organize Your Files with Python By Sameh Dorgham
-... سامح درغام ...
+
+https://youtu.be/VOhJ2cm5gMM
+...
+Video URL :
 https://lnkd.in/dGrzKbMQ
 ...
-رابط الملف علي جيت هب .. GitHub URL :
+
+GitHub URL :
 
 https://lnkd.in/dBu8Rnkk
 ...
