@@ -78,7 +78,7 @@ for filename in os.listdir(current_directory):
 
         if not os.path.exists("exe"):
 
-            os.mkdir("ISO")
+            os.mkdir("exe")
         
         shutil.copy(filename, "exe")
 
